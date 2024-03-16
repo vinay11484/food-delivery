@@ -1,0 +1,24 @@
+{
+  "name": "food-app",
+  "version": "1.0.0",
+  "description": "food-app by vinay chaurasia",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinay11484/food-delivery.git"
+  },
+  "keywords": [
+    "react",
+    "java",
+    "script"
+  ],
+  "author": "vinay chaurasia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinay11484/food-delivery/issues"
+  },
+  "homepage": "https://github.com/vinay11484/food-delivery#readme"
+}
