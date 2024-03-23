@@ -1,8 +1,51 @@
-#heading {
-  background-color: yellow;
-  padding: 10px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
 }
-#heading1 {
-  background-color: green;
+.nev-items > ul {
+  display: flex;
+  list-style-type:none;
+}
+.nev-items > ul >li {
   padding: 10px;
+  margin: 10px;
+  font-size: larger;
+  font-weight: 600;
+}
+.logo{
+  width: 120px;
+}
+.res-card{
+  width: 300px;
+  height: 400px;
+  background-color: rgba(239, 238, 245, 0.99);
+  cursor:pointer
+}
+.res-card:hover{
+  border: 1px solid black;
+  background-color: rgba(223, 223, 225, 0.99);
+}
+.item-logo{
+  padding: 5px;
+  margin: 2px;
+  height: 200px;
+  width: 286px;
+}
+
+.res-container{
+  display :flex;
+  flex-wrap: wrap;
+}
+.shimmer-container{
+  display:flex ;
+  flex-wrap: wrap;
+}
+
+.shimmer-box{
+  background-color: rgb(194, 198, 201);
+  width: 258;
+  height: 400;
+  padding: 10px;
+  margin: 10px;
 }
